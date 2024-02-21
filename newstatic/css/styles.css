@@ -1,0 +1,112 @@
+body{
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  background-color: #f7f6f0;
+  background-image: url(https://img.freepik.com/free-photo/abstract-luxury-plain-blur-grey-black-gradient-used-as-background-studio-wall-display-your-products_1258-63644.jpg?size=338&ext=jpg&ga=GA1.1.1700460183.1708473600&semt=ais);
+  background-size: cover ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.footer{
+    width:100%;
+    position: fixed;
+    bottom: 0;
+}
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    /* padding: 20px; */
+    border-radius: 30px 30px 0px 0px;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+}
+.content .items{
+    font-size: 30px;
+    color: rgba(9,9,121,1);
+}
+.navbar{
+    border-radius: 0px 0px 30px 30px;
+
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+.top-content{
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+.top-content a{
+    text-decoration: none;
+    color: black;
+}
+.top-content .items{
+    padding: 30px;
+    width: 20%;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: white;
+    text-align: center;
+    font-size: large;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+}
+.top-content .items:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color: white;
+
+}
+.itemcontainer{
+    width:90%;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+
+    
+    color: white;
+
+
+}
+.bottom-itemcontainer{
+    width:100%;
+    height: 120px;
+    border-radius: 30px 30px 0px 0px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    z-index: 0;
+    text-align: center;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.bottom-itemcontainer input{
+    width:70%;
+    border-radius: 10px;
+    border: .5px solid rgba(9,9,121,1) ;
+    padding: 3px;
+
+    
+}
+.bottom-itemcontainer button{
+    border-radius: 10px;
+    background-color: white;
+    color: rgba(9,9,121,1);
+    border: none;
+    padding: 3px;
+}
+.bottom-itemcontainer button:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+
